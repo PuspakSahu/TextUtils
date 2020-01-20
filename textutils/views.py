@@ -41,6 +41,7 @@ def analyze(request):
                     pass
                 else:
                     newtext+=rawtext[i]
+        newtext += rawtext[i+1]
         rawtext=newtext
     if nlr == 'on':
         newtext = ''

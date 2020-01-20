@@ -42,9 +42,14 @@
     <div class="form-group">
     <textarea name="rawtext" style="margin: 0px; width: 1338px; height: 149px;" class="form-control" id="exampleFormControlTextarea1" rows="5">{{ rawtext }}</textarea>
     </div>
+
+    {% if cc > 0 %}
     <h3>
     Character count:   {{cc}}
     </h3>
+    {% endif %}
+
+
 
 
 
